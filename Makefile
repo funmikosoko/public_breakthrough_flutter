@@ -4,9 +4,9 @@
 
 BASE_HREF = /$(OUTPUT)/
 # Replace this with your GitHub username
-GITHUB_USER = <your-github-username>
+GITHUB_USER = funmikosoko
 GITHUB_REPO = https://github.com/$(GITHUB_USER)/$(OUTPUT)
-BUILD_VERSION := $(shell grep 'version:' pubspec.yaml | awk '{print $$2}')
+BUILD_VERSION := 1.1.0
 
 define ERROR_MESSAGE
 OUTPUT cannot be "dummy_output_folder". Please specify a valid output folder, eg:
